@@ -2,6 +2,10 @@
 ## This version of Warp4Free is updated to function properly on Parsec v150-94a
 Open an issue if the pattern to the function breaks on newer versions of Parsec, and if I have time I will get around to updating it for you, or feel free to go ahead and find it yourself.
 
+4:4:4 Color  did not take effect and could not be selected when clicked
+![image](https://github.com/Relyze/Warp4Free/assets/89442807/d0a1e472-dcfb-45a5-8299-1cf2966eb9b2)
+
+
 #### This project was originally targeted at the 4:4:4 full color range feature included in Parsec Warp. It now provides free access to all features.
 
 Multiple Displays in action (requires injection at least once on host for setup): 
