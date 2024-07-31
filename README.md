@@ -1,5 +1,5 @@
 # Warp4Free - Parsec Warp for Free
-## This version of Warp4Free is updated to function properly on Parsec v150-94a
+## This version of Warp4Free is updated to function properly on Parsec v150-94a, not working with parsec v150-95d
 Open an issue if the pattern to the function breaks on newer versions of Parsec, and if I have time I will get around to updating it for you, or feel free to go ahead and find it yourself.
 
 #### This project was originally targeted at the 4:4:4 full color range feature included in Parsec Warp. It now provides free access to all features.
