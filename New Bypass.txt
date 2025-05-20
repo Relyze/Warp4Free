@@ -1,0 +1,45 @@
+Last week i found your repo  while searching how to get Parsec Warp for free. Then i started fiddling around and debugging it for a bit and understood that the warp feature is unlocked by an http call to "kessel-api.parsec.app/me", that returns a JSON like this:
+
+{
+    "data": {
+        "id": 17252567,
+        "name": "mauone",
+        "email": "ro.se.a.nder.sen.87@googlemail.com",
+        "warp": false,
+        "staff": false,
+        "team_id": "",
+        "is_confirmed": true,
+        "team_is_active": false,
+        "is_saml": false,
+        "is_gateway_enabled": false,
+        "is_relay_enabled": false,
+        "has_tfa": false,
+        "team_enforce_tfa": false,
+        "can_upgrade_session": false,
+        "can_downgrade_session": false,
+        "app_config": {
+            "app_arcade": {
+                "value": "false"
+            },
+            "app_new_ui_prompt": {
+                "value": "true"
+            }
+        },
+        "app_config_v2": {
+            "app_arcade": {
+                "value": false
+            },
+            "app_new_ui_prompt": {
+                "value": true
+            }
+        },
+        "cohort_channel": "release7",
+        "marketing_opt_in": null,
+        "is_out_of_compliance": false,
+        "new_ui_enabled": false
+    }
+}
+
+
+So i wrote a little mitmproxy script that listens  to that call and set the answer to True. I am sure this can be taken further to a proper "crack", for instance when changing the value when the data arrives in the DLL. Anyway, just wanted to share it. 
+The Git is here: https://github.com/ciucciodifuoco/ParsecWarpFree
