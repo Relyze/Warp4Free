@@ -1,11 +1,9 @@
 # Warp4Free - Parsec Warp for Free
-## This version of Warp4Free is updated to function properly on Parsec v150-94a
-Open an issue if the pattern to the function breaks on newer versions of Parsec, and if I have time I will get around to updating it for you, or feel free to go ahead and find it yourself.
-
-![image](https://github.com/Relyze/Warp4Free/assets/89442807/d0a1e472-dcfb-45a5-8299-1cf2966eb9b2)
-
+## This version of Warp4Free is updated to function properly on Parsec v150-104a
 
 #### This project was originally targeted at the 4:4:4 full color range feature included in Parsec Warp. It now provides free access to all features.
+
+#### Ensure that you inject it into both the host and guest Parsec client's to ensure all Warp feature's function as intended.
 
 Multiple Displays in action (requires injection at least once on host for setup): 
 
